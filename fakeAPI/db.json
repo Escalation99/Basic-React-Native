@@ -1,16 +1,10 @@
 {
   "users": [
     {
-      "name": "aaa",
-      "email": "aaa",
-      "bidang": "aaa",
+      "name": "Ray Tommy",
+      "email": "ray@yahoo.com",
+      "bidang": "Designer",
       "id": 1
-    },
-    {
-      "name": "aaa",
-      "email": "aaa",
-      "bidang": "aaa",
-      "id": 2
     }
   ]
 }

@@ -45,18 +45,18 @@ const LocalAPI = () => {
             Axios.post('http://10.0.2.2:3004/users', data)
                 .then(res => {
                     console.log('res: ', res)
-                    setName = ("");
-                    setEmail = ("");
-                    setBidang = ("");
+                    setName("");
+                    setEmail("");
+                    setBidang("");
                     getData();
                 })
         } else if (button === "Update") {
             Axios.put(`http://10.0.2.2:3004/users/${selectedUser.id}`, data)
                 .then(res => {
                     console.log('res: ', res);
-                    setName = ("");
-                    setEmail = ("");
-                    setBidang = ("");
+                    setName("");
+                    setEmail("");
+                    setBidang("");
                     getData();
                     setButton("Simpan");
                 })
